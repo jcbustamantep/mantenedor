@@ -22,7 +22,7 @@ namespace _01.App_Web.App_Code.BOL
         public PaisesDTO Get (PaisesDTO paisDTO)
         {
             Paises pais = new Paises (paisDTO.paisNombre);
-
+            
             Paises nuevoPais = paisDAL.Get(pais);
 
             PaisesDTO nuevoPaisDTO = new PaisesDTO() { paisId = nuevoPais.paisId, paisNombre = nuevoPais.paisNombre, paisEstado = nuevoPais.paisEstado };

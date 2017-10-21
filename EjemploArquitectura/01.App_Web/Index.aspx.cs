@@ -14,14 +14,31 @@ namespace _01.App_Web
         private PaisesBOL paisBOL = new PaisesBOL();
         protected void Page_Load(object sender, EventArgs e)
         {
-            TEST_GETALL();
+            TEST_GET();
+        }
+        public void Insert()
+        {
+            string nombre = "Textinsert";
+            PaisesDTO paisDTO = new PaisesDTO();
+            paisDTO.paisNombre = nombre;
+            try
+            {
+                paisBOL.Insert(paisDTO);
+                lblResultado.Text = "Registro insertado correctamente";
+            }
+            catch (Exception ex)
+            {
+                lblResultado.Text = ex.Message;
+            }
         }
 
         public void TEST_insert()
         {
-            string nombre = "brasil";
+            string nombre = "Argentina";
+            
             PaisesDTO paisDTO = new PaisesDTO();
             paisDTO.paisNombre = nombre;
+
             try
             {
                 paisBOL.Insert(paisDTO);

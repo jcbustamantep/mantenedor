@@ -18,8 +18,7 @@ namespace _01.App_Web.App_Code.BOL.Core
             get { return _paisId; }
             private set { _paisId = value; }
         }
-
-
+        
 
         private string _paisNombre;
 
@@ -29,9 +28,9 @@ namespace _01.App_Web.App_Code.BOL.Core
             private set { _paisNombre = value; }
         }
 
-        private Boolean _paisEstado;
+        private bool _paisEstado;
 
-        public Boolean paisEstado
+        public bool paisEstado
         {
             get { return _paisEstado; }
             private set { _paisEstado = value; }
@@ -58,7 +57,9 @@ namespace _01.App_Web.App_Code.BOL.Core
 
         public Paises(string nombre)
         {
+            
             _paisNombre = nombre;
+            
         }
 
         #endregion
