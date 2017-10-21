@@ -4,8 +4,8 @@ c:\users\paiggo\documents\visual studio 2013\Projects\EjemploArquitectura\01.App
 c:\users\paiggo\documents\visual studio 2013\Projects\EjemploArquitectura\01.App_Web\obj\Debug\01.App_Web.dll
 c:\users\paiggo\documents\visual studio 2013\Projects\EjemploArquitectura\01.App_Web\obj\Debug\01.App_Web.pdb
 C:\Users\PAIGGO\documents\visual studio 2013\Projects\EjemploArquitectura\01.App_Web\obj\Debug\01.App_Web.csprojResolveAssemblyReference.cache
-C:\Users\Juank\Documents\GitHub\mantenedor\EjemploArquitectura\01.App_Web\obj\Debug\01.App_Web.csprojResolveAssemblyReference.cache
 C:\Users\Juank\Documents\GitHub\mantenedor\EjemploArquitectura\01.App_Web\bin\01.App_Web.dll
 C:\Users\Juank\Documents\GitHub\mantenedor\EjemploArquitectura\01.App_Web\bin\01.App_Web.pdb
+C:\Users\Juank\Documents\GitHub\mantenedor\EjemploArquitectura\01.App_Web\obj\Debug\01.App_Web.csprojResolveAssemblyReference.cache
 C:\Users\Juank\Documents\GitHub\mantenedor\EjemploArquitectura\01.App_Web\obj\Debug\01.App_Web.dll
 C:\Users\Juank\Documents\GitHub\mantenedor\EjemploArquitectura\01.App_Web\obj\Debug\01.App_Web.pdb

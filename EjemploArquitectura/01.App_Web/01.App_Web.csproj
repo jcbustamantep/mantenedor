@@ -57,50 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTML\.gitignore" />
-    <Content Include="HTML\404.html" />
-    <Content Include="HTML\archive.html" />
-    <Content Include="HTML\css\ie.css" />
-    <Content Include="HTML\css\main.css" />
-    <Content Include="HTML\fonts\gobcl_bold.svg" />
-    <Content Include="HTML\fonts\gobcl_heavy.svg" />
-    <Content Include="HTML\fonts\gobcl_light.svg" />
-    <Content Include="HTML\fonts\gobcl_regular.svg" />
-    <Content Include="HTML\img\gobcl-favicon.ico" />
-    <Content Include="HTML\img\logo-main.png" />
-    <Content Include="HTML\img\png\bicolor-bg.png" />
-    <Content Include="HTML\img\png\buscar-bg.png" />
-    <Content Include="HTML\img\png\cita-destacada-bg.png" />
-    <Content Include="HTML\img\png\lista-redes-sprite.png" />
-    <Content Include="HTML\img\png\mini-stream-h3-down-bg.png" />
-    <Content Include="HTML\img\svg\bicolor-bg.svg" />
-    <Content Include="HTML\img\svg\buscar-bg.svg" />
-    <Content Include="HTML\img\svg\cita-destacada-bg.svg" />
-    <Content Include="HTML\img\svg\lista-redes-sprite.svg" />
-    <Content Include="HTML\img\svg\mini-stream-h3-down-bg.svg" />
-    <Content Include="HTML\index.html" />
-    <Content Include="HTML\js\main.js" />
-    <Content Include="HTML\lista-autoridades.html" />
-    <Content Include="HTML\page.html" />
-    <Content Include="HTML\single-autoridades.html" />
-    <Content Include="HTML\single.html" />
+    <Content Include="js\paisN.js" />
     <Content Include="packages.config" />
-    <Content Include="HTML\README.md" />
-    <Content Include="HTML\css\main.less" />
-    <Content Include="HTML\css\mediaqueries.less" />
-    <Content Include="HTML\css\normalize.less" />
-    <Content Include="HTML\fonts\gobcl_bold.eot" />
-    <Content Include="HTML\fonts\gobcl_bold.ttf" />
-    <Content Include="HTML\fonts\gobcl_bold.woff" />
-    <Content Include="HTML\fonts\gobcl_heavy.eot" />
-    <Content Include="HTML\fonts\gobcl_heavy.ttf" />
-    <Content Include="HTML\fonts\gobcl_heavy.woff" />
-    <Content Include="HTML\fonts\gobcl_light.eot" />
-    <Content Include="HTML\fonts\gobcl_light.ttf" />
-    <Content Include="HTML\fonts\gobcl_light.woff" />
-    <Content Include="HTML\fonts\gobcl_regular.eot" />
-    <Content Include="HTML\fonts\gobcl_regular.ttf" />
-    <Content Include="HTML\fonts\gobcl_regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -134,6 +92,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="css\" />
     <Folder Include="Models\Generated\" />
   </ItemGroup>
   <ItemGroup>

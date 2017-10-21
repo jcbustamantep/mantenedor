@@ -41,6 +41,13 @@ namespace _01.App_Web.App_Code.BOL.Core
 
         #region Metodos
         
+
+
+
+
+
+
+
         #endregion
 
         #region Constructores
