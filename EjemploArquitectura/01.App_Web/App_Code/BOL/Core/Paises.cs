@@ -5,7 +5,7 @@ using System.Web;
 
 namespace _01.App_Web.App_Code.BOL.Core
 {
-    [PetaPoco.TableName("PAIS")]
+    [PetaPoco.TableName("PAISES")]
     [PetaPoco.PrimaryKey("paisId")]
     public class Paises
     {
@@ -13,7 +13,7 @@ namespace _01.App_Web.App_Code.BOL.Core
 
         private int _paisId;
 
-        public int PaisId
+        public int paisId
         {
             get { return _paisId; }
             private set { _paisId = value; }
@@ -23,10 +23,18 @@ namespace _01.App_Web.App_Code.BOL.Core
 
         private string _paisNombre;
 
-        public string PaisNombre
+        public string paisNombre
         {
             get { return _paisNombre; }
             private set { _paisNombre = value; }
+        }
+
+        private Boolean _paisEstado;
+
+        public Boolean paisEstado
+        {
+            get { return _paisEstado; }
+            private set { _paisEstado = value; }
         }
 
         #endregion

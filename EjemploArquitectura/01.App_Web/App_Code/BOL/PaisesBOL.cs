@@ -25,7 +25,7 @@ namespace _01.App_Web.App_Code.BOL
 
             Paises nuevoPais = paisDAL.Get(pais);
 
-            PaisesDTO nuevoPaisDTO = new PaisesDTO() { paisId = nuevoPais.PaisId , paisNombre = nuevoPais.PaisNombre };
+            PaisesDTO nuevoPaisDTO = new PaisesDTO() { paisId = nuevoPais.paisId, paisNombre = nuevoPais.paisNombre, paisEstado = nuevoPais.paisEstado };
 
             return nuevoPaisDTO;
         }
@@ -38,8 +38,9 @@ namespace _01.App_Web.App_Code.BOL
             {
                 PaisesDTO nuevoPaisDTO = new PaisesDTO();
 
-                nuevoPaisDTO.paisId = pais.PaisId;
-                nuevoPaisDTO.paisNombre = pais.PaisNombre;
+                nuevoPaisDTO.paisId = pais.paisId;
+                nuevoPaisDTO.paisNombre = pais.paisNombre;
+                nuevoPaisDTO.paisEstado = pais.paisEstado;
 
                 miLista.Add (nuevoPaisDTO);
             }
@@ -47,13 +48,13 @@ namespace _01.App_Web.App_Code.BOL
             return miLista;
         }
 
-        public void Update(PaisesDTO paisDTO)
-        {
-            PaisesDTO nuevoPaisDTO = Get(paisDTO);
-            Paises pais = new Paises(nuevoPaisDTO.paisNombre);
-            pais.PaisNombre = paisDTO.paisNombre;
+        //public void Update(PaisesDTO paisDTO)
+        //{
+        //    PaisesDTO nuevoPaisDTO = Get(paisDTO);
+        //    Paises pais = new Paises(nuevoPaisDTO.paisNombre);
+        //    pais.paisNombre = paisDTO.paisNombre;
 
-            paisDAL.Update(pais);
-        }
+        //    paisDAL.Update(pais);
+        //}
     }
 }

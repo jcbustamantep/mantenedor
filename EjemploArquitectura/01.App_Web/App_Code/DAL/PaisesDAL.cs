@@ -16,12 +16,12 @@ namespace _01.App_Web.App_Code.DAL
 
         public Paises Get(Paises pais)
         {
-            return db.Single<Paises>(pais.PaisId);
+            return db.Single<Paises>(pais.paisId);
         }
 
         public IEnumerable<Paises> GetAll()
         {
-            return db.Query<Paises>("SELECT paisId,paisNombre FROM PAIS");
+            return db.Query<Paises>("SELECT paisId,paisNombre FROM PAISES");
         }
         public void Update(Paises pais)
         {
